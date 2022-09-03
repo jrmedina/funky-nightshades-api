@@ -1408,8 +1408,33 @@ app.locals.movies = [
 
 app.get("/:id", (request, response) => {
   const data = app.locals.movies;
-  const movie = data.find((movie) => movie.id === parseInt(request.params.id));
-  console.log(movie);
+  // const movie = data.find((movie) => movie.id === parseInt(request.params.id));
+  const movie = data.reduce((format, movie) => {
+    if (movie.id === parseInt(request.params.id)) {
+      const [year, month, day] = movie.release_date.split("-");
+      const hours = Math.floor(movie.runtime / 60);
+      const minutes = movie.runtime % 60;
+      const budget =
+        movie.budget === 0 ? "None" : `$${movie.budget.toLocaleString()}`
+        const revenue =
+        movie.revenue === 0 ? "This movie didn't do so well..." : `$${movie.revenue.toLocaleString()}`
+
+      format["average_rating"] = movie.average_rating;
+      format["backdrop_path"] = movie.backdrop_path;
+      format["budget"] = budget;
+      format["genres"] = movie.genres.join(", ");
+      format["id"] = movie.id;
+      format["overview"] = movie.overview;
+      format["poster_path"] = movie.poster_path;
+      format["release_date"] = `${month}/${day}/${year}`;
+      format["revenue"] = revenue;
+      format["runtime"] = `${hours}h : ${minutes}m`;
+      format["tagline"] = movie.tagline || "Funky!";
+      format["title"] = movie.title;
+      format["videos"] = movie.videos;
+    }
+    return format;
+  }, {});
 
   if (!movie) {
     response.status(404).send({

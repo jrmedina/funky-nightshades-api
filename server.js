@@ -334,11 +334,9 @@ app.locals.movies = [
     title: "The Crimes That Bind",
     videos: [
       {
-        id: 327,
-        movie_id: 632618,
-        key: "u2ncERi6TgU",
+        key: "dQw4w9WgXcQ",
         site: "YouTube",
-        type: "Trailer",
+        type: "Clip",
       },
     ],
   },
@@ -454,11 +452,9 @@ app.locals.movies = [
     title: "Lost Girls & Love Hotels",
     videos: [
       {
-        id: 272,
-        movie_id: 479259,
-        key: "447523697",
-        site: "Vimeo",
-        type: "Trailer",
+        key: "dQw4w9WgXcQ",
+        site: "YouTube",
+        type: "Clip",
       },
       {
         id: 271,
@@ -680,11 +676,9 @@ app.locals.movies = [
     title: "Force of Nature",
     videos: [
       {
-        id: 323,
-        movie_id: 619592,
-        key: "iQKaY8G9VpQ",
+        key: "dQw4w9WgXcQ",
         site: "YouTube",
-        type: "Trailer",
+        type: "Clip",
       },
     ],
   },
@@ -938,7 +932,7 @@ app.locals.movies = [
     genres: ["Comedy", "Drama"],
     id: 579583,
     overview:
-      "Scott has been a case of arrested development ever since his firefighter father died when he was seven. He’s now reached his mid-20s having achieved little, chasing a dream of becoming a tattoo artist that seems far out of reach. As his ambitious younger sister heads off to college, Scott is still living with his exhausted ER nurse mother and spends his days smoking weed, hanging with the guys — Oscar, Igor and Richie — and secretly hooking up with his childhood friend Kelsey. But when his mother starts dating a loudmouth firefighter named Ray, it sets off a chain of events that will force Scott to grapple with his grief and take his first tentative steps toward moving forward in life.",
+      "Scott has been a case of arrested development ever since his firefighter father died when he was seven. He’s now reached his mid-20s having achieved little, chasing a dream of becoming a tattoo artist that seems far out of reach. As his ambitious younger sister heads off to college, Scott is still living with his exhausted ER nurse mother and spends his days smoking weed, hanging with the guys — Oscar, Igor and Richie — and secretly hooking up with his childhood friend Kelsey.",
     poster_path:
       "https://image.tmdb.org/t/p/original//zQFjMmE3K9AX5QrBL1SXIxYQ9jz.jpg",
     release_date: "2020-07-22",
@@ -1142,7 +1136,13 @@ app.locals.movies = [
     runtime: 0,
     tagline: "",
     title: "Maratón After",
-    videos: [],
+    videos: [
+      {
+        key: "dQw4w9WgXcQ",
+        site: "YouTube",
+        type: "Clip",
+      },
+    ],
   },
   {
     average_rating: 4.8,
@@ -1151,7 +1151,8 @@ app.locals.movies = [
     budget: 280000,
     genres: ["Drama"],
     id: 737799,
-    overview: "",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ",
     poster_path:
       "https://image.tmdb.org/t/p/original//tEvGSlRO0dz1pINzjSEELdTHvwk.jpg",
     release_date: "2020-08-28",
@@ -1159,7 +1160,13 @@ app.locals.movies = [
     runtime: 0,
     tagline: "",
     title: "Maquis",
-    videos: [],
+    videos: [
+      {
+        key: "dQw4w9WgXcQ",
+        site: "YouTube",
+        type: "Clip",
+      },
+    ],
   },
   {
     average_rating: 7.333333333333333,
@@ -1415,9 +1422,15 @@ app.get("/:id", (request, response) => {
       const hours = Math.floor(movie.runtime / 60);
       const minutes = movie.runtime % 60;
       const budget =
-        movie.budget === 0 ? "None" : `$${movie.budget.toLocaleString()}`
-        const revenue =
-        movie.revenue === 0 ? "This movie didn't do so well..." : `$${movie.revenue.toLocaleString()}`
+        movie.budget === 0 ? "None" : `$${movie.budget.toLocaleString()}`;
+      const revenue =
+        movie.revenue === 0
+          ? "This movie wasn't so funky..."
+          : `$${movie.revenue.toLocaleString()}`;
+
+      const url = movie.videos.length
+        ? movie.videos
+        : "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
       format["average_rating"] = movie.average_rating;
       format["backdrop_path"] = movie.backdrop_path;
@@ -1429,16 +1442,16 @@ app.get("/:id", (request, response) => {
       format["release_date"] = `${month}/${day}/${year}`;
       format["revenue"] = revenue;
       format["runtime"] = `${hours}h : ${minutes}m`;
-      format["tagline"] = movie.tagline || "Funky!";
+      format["tagline"] = `${movie.tagline}` || movie.title;
       format["title"] = movie.title;
-      format["videos"] = movie.videos;
+      format["videos"] = url;
     }
     return format;
   }, {});
 
   if (!movie) {
     response.status(404).send({
-      error: `Sorry this movie doesn't exist!`,
+      error: `Sorry this movie doesn't exist yet!`,
     });
   }
   response.send({ movie });

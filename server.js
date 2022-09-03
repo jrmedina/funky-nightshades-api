@@ -21,6 +21,15 @@ app.locals.movies = [
       "A professional thief with $40 million in debt and his family's life on the line must commit one final heist - rob a futuristic airborne casino filled with the world's most dangerous criminals.",
     genres: ["Action"],
     budget: 0,
+    videos: [
+      {
+        id: 330,
+        key: "aETz_dRDEys",
+        movie_id: 694919,
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     id: 337401,
@@ -38,6 +47,43 @@ app.locals.movies = [
     runtime: 115,
     overview:
       "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
+    videos: [
+      {
+        id: 242,
+        movie_id: 337401,
+        key: "01ON04GCwKs",
+        site: "YouTube",
+        type: "Teaser",
+      },
+      {
+        id: 243,
+        movie_id: 337401,
+        key: "KK8FHdFluOQ",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 246,
+        movie_id: 337401,
+        key: "1UXZEGYSwgg",
+        site: "YouTube",
+        type: "Featurette",
+      },
+      {
+        id: 244,
+        movie_id: 337401,
+        key: "R-eFm--k21c",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 245,
+        movie_id: 337401,
+        key: "bJbAZh3fv0g",
+        site: "YouTube",
+        type: "Teaser",
+      },
+    ],
   },
   {
     average_rating: 7.333333333333333,
@@ -55,6 +101,15 @@ app.locals.movies = [
     runtime: 106,
     tagline: "When the hunter becomes the prey.",
     title: "Rogue",
+    videos: [
+      {
+        id: 331,
+        movie_id: 718444,
+        key: "IpSK2CsKULg",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 5.875,
@@ -72,6 +127,15 @@ app.locals.movies = [
     runtime: 96,
     tagline: "Kill. Or be killed.",
     title: "Ava",
+    videos: [
+      {
+        id: 290,
+        movie_id: 539885,
+        key: "ozUuAcGOhPs",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 7.166666666666667,
@@ -89,6 +153,36 @@ app.locals.movies = [
     runtime: 114,
     tagline: "Escape The Apocalypse",
     title: "Peninsula",
+    videos: [
+      {
+        id: 303,
+        movie_id: 581392,
+        key: "aRuhOJJA56U",
+        site: "YouTube",
+        type: "Featurette",
+      },
+      {
+        id: 302,
+        movie_id: 581392,
+        key: "cRvHl1dThlg",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 304,
+        movie_id: 581392,
+        key: "XdruWAKcoxc",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 301,
+        movie_id: 581392,
+        key: "yVucSRLLeIM",
+        site: "YouTube",
+        type: "Teaser",
+      },
+    ],
   },
   {
     average_rating: 7.5,
@@ -106,6 +200,15 @@ app.locals.movies = [
     runtime: 84,
     tagline: "",
     title: "Cats & Dogs 3: Paws Unite",
+    videos: [
+      {
+        id: 332,
+        movie_id: 726739,
+        key: "ct5mQYE3Xk4",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 6.571428571428571,
@@ -123,6 +226,29 @@ app.locals.movies = [
     runtime: 105,
     tagline: "If it chooses you, nothing can save you.",
     title: "Antebellum",
+    videos: [
+      {
+        id: 324,
+        movie_id: 627290,
+        key: "mXcZ7WDsVwk",
+        site: "YouTube",
+        type: "Teaser",
+      },
+      {
+        id: 326,
+        movie_id: 627290,
+        key: "7MPib67BDHY",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 325,
+        movie_id: 627290,
+        key: "AIrzZ18K_3k",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 5.25,
@@ -140,6 +266,29 @@ app.locals.movies = [
     runtime: 105,
     tagline: "Can love overcome the past?",
     title: "After We Collided",
+    videos: [
+      {
+        id: 320,
+        movie_id: 613504,
+        key: "2SvwX3ux_-8",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 318,
+        movie_id: 613504,
+        key: "u5B76cpkbfU",
+        site: "YouTube",
+        type: "Clip",
+      },
+      {
+        id: 319,
+        movie_id: 613504,
+        key: "BJBxXDhpZq0",
+        site: "YouTube",
+        type: "Teaser",
+      },
+    ],
   },
   {
     average_rating: 4.857142857142857,
@@ -157,6 +306,15 @@ app.locals.movies = [
     runtime: 92,
     tagline: "",
     title: "The Owners",
+    videos: [
+      {
+        id: 328,
+        movie_id: 659986,
+        key: "yMvJSivVNrs",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 4.857142857142857,
@@ -174,6 +332,15 @@ app.locals.movies = [
     runtime: 99,
     tagline: "",
     title: "The Crimes That Bind",
+    videos: [
+      {
+        id: 327,
+        movie_id: 632618,
+        key: "u2ncERi6TgU",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 6.4,
@@ -191,6 +358,29 @@ app.locals.movies = [
     runtime: 91,
     tagline: "",
     title: "Trolls World Tour",
+    videos: [
+      {
+        id: 266,
+        movie_id: 446893,
+        key: "3cCoDDhFpmY",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 267,
+        movie_id: 446893,
+        key: "08AExF6dETA",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 265,
+        movie_id: 446893,
+        key: "SyTg7RIn-X8",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 6.4,
@@ -208,6 +398,43 @@ app.locals.movies = [
     runtime: 102,
     tagline: "Their quest begineth.",
     title: "Onward",
+    videos: [
+      {
+        id: 284,
+        movie_id: 508439,
+        key: "di1DPydyqdk",
+        site: "YouTube",
+        type: "Featurette",
+      },
+      {
+        id: 282,
+        movie_id: 508439,
+        key: "A5Z7QsRGxGo",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 283,
+        movie_id: 508439,
+        key: "HxKXiQvyG_o",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 281,
+        movie_id: 508439,
+        key: "gn5QmllRCn4",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 280,
+        movie_id: 508439,
+        key: "x8DKg_fsacM",
+        site: "YouTube",
+        type: "Teaser",
+      },
+    ],
   },
   {
     average_rating: 5.142857142857143,
@@ -225,6 +452,22 @@ app.locals.movies = [
     runtime: 97,
     tagline: "",
     title: "Lost Girls & Love Hotels",
+    videos: [
+      {
+        id: 272,
+        movie_id: 479259,
+        key: "447523697",
+        site: "Vimeo",
+        type: "Trailer",
+      },
+      {
+        id: 271,
+        movie_id: 479259,
+        key: "436179361",
+        site: "Vimeo",
+        type: "Teaser",
+      },
+    ],
   },
   {
     average_rating: 5.285714285714286,
@@ -242,6 +485,22 @@ app.locals.movies = [
     runtime: 104,
     tagline: "",
     title: "My Hero Academia: Heroes Rising",
+    videos: [
+      {
+        id: 310,
+        movie_id: 592350,
+        key: "ezHmHHt0B78",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 309,
+        movie_id: 592350,
+        key: "_A-6qcgExA4",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 4.666666666666667,
@@ -259,6 +518,36 @@ app.locals.movies = [
     runtime: 123,
     tagline: "The mission was survival.",
     title: "The Outpost",
+    videos: [
+      {
+        id: 289,
+        movie_id: 531876,
+        key: "CGI0ug1obzc",
+        site: "YouTube",
+        type: "Clip",
+      },
+      {
+        id: 288,
+        movie_id: 531876,
+        key: "3RrdQsFC0ms",
+        site: "YouTube",
+        type: "Clip",
+      },
+      {
+        id: 287,
+        movie_id: 531876,
+        key: "KNaKL9crha4",
+        site: "YouTube",
+        type: "Clip",
+      },
+      {
+        id: 286,
+        movie_id: 531876,
+        key: "f4LM9a02q9Q",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 5,
@@ -276,6 +565,15 @@ app.locals.movies = [
     runtime: 138,
     tagline: "Everyone ends up in the same damned place.",
     title: "The Devil All the Time",
+    videos: [
+      {
+        id: 273,
+        movie_id: 499932,
+        key: "EIzazUv2gtI",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 4.2,
@@ -293,6 +591,22 @@ app.locals.movies = [
     runtime: 120,
     tagline: "The most beloved fairy tale comes to life",
     title: "Pinocchio",
+    videos: [
+      {
+        id: 262,
+        movie_id: 413518,
+        key: "v1VH-8ezqTw",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 263,
+        movie_id: 413518,
+        key: "yxqws07xGxg",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 5.428571428571429,
@@ -310,6 +624,43 @@ app.locals.movies = [
     runtime: 150,
     tagline: "Time runs out.",
     title: "Tenet",
+    videos: [
+      {
+        id: 297,
+        movie_id: 577922,
+        key: "AZGcmvrTX9M",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 294,
+        movie_id: 577922,
+        key: "LdOM0x0XDMo",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 296,
+        movie_id: 577922,
+        key: "dXd0eyrLS-A",
+        site: "YouTube",
+        type: "Teaser",
+      },
+      {
+        id: 295,
+        movie_id: 577922,
+        key: "L3pk_TBkihU",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 298,
+        movie_id: 577922,
+        key: "u0hCSxqnjT0",
+        site: "YouTube",
+        type: "Behind the Scenes",
+      },
+    ],
   },
   {
     average_rating: 4.5,
@@ -327,6 +678,15 @@ app.locals.movies = [
     runtime: 91,
     tagline: "",
     title: "Force of Nature",
+    videos: [
+      {
+        id: 323,
+        movie_id: 619592,
+        key: "iQKaY8G9VpQ",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 3.75,
@@ -344,6 +704,29 @@ app.locals.movies = [
     runtime: 92,
     tagline: "The future awaits",
     title: "Bill & Ted Face the Music",
+    videos: [
+      {
+        id: 279,
+        movie_id: 501979,
+        key: "yevysSJlRdQ",
+        site: "YouTube",
+        type: "Behind the Scenes",
+      },
+      {
+        id: 278,
+        movie_id: 501979,
+        key: "1gPGeAYo3yU",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 276,
+        movie_id: 501979,
+        key: "0hAL7emClFM",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 4,
@@ -361,6 +744,85 @@ app.locals.movies = [
     runtime: 94,
     tagline: "It's time to face your demons",
     title: "The New Mutants",
+    videos: [
+      {
+        id: 255,
+        movie_id: 340102,
+        key: "v4jbjZQXWdE",
+        site: "YouTube",
+        type: "Featurette",
+      },
+      {
+        id: 254,
+        movie_id: 340102,
+        key: "JO-tpM6xWrE",
+        site: "YouTube",
+        type: "Featurette",
+      },
+      {
+        id: 257,
+        movie_id: 340102,
+        key: "oZm1YjUJ3_E",
+        site: "YouTube",
+        type: "Featurette",
+      },
+      {
+        id: 247,
+        movie_id: 340102,
+        key: "bu9e410C__I",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 256,
+        movie_id: 340102,
+        key: "Na1gg0lY_M4",
+        site: "YouTube",
+        type: "Clip",
+      },
+      {
+        id: 248,
+        movie_id: 340102,
+        key: "SX6orc4EQLw",
+        site: "YouTube",
+        type: "Featurette",
+      },
+      {
+        id: 249,
+        movie_id: 340102,
+        key: "S3ZkL3boVyQ",
+        site: "YouTube",
+        type: "Teaser",
+      },
+      {
+        id: 250,
+        movie_id: 340102,
+        key: "W_vJhUAOFpI",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 251,
+        movie_id: 340102,
+        key: "if0WjWq-lec",
+        site: "YouTube",
+        type: "Featurette",
+      },
+      {
+        id: 252,
+        movie_id: 340102,
+        key: "PXh2gkuzgbg",
+        site: "YouTube",
+        type: "Featurette",
+      },
+      {
+        id: 253,
+        movie_id: 340102,
+        key: "3j__98wtzLY",
+        site: "YouTube",
+        type: "Teaser",
+      },
+    ],
   },
   {
     average_rating: 5.25,
@@ -378,6 +840,22 @@ app.locals.movies = [
     runtime: 85,
     tagline: "",
     title: "Monsoon",
+    videos: [
+      {
+        id: 316,
+        movie_id: 605499,
+        key: "wiKxgGAYU40",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 315,
+        movie_id: 605499,
+        key: "a-phXZel83o",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 5.333333333333333,
@@ -395,6 +873,15 @@ app.locals.movies = [
     runtime: 97,
     tagline: "Be careful who you trust.",
     title: "The Doorman",
+    videos: [
+      {
+        id: 333,
+        movie_id: 737568,
+        key: "pugLE1ifvbY",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 6.25,
@@ -412,6 +899,36 @@ app.locals.movies = [
     runtime: 91,
     tagline: "A Huge Journey to Find a Tiny Friend",
     title: "The SpongeBob Movie: Sponge on the Run",
+    videos: [
+      {
+        id: 258,
+        movie_id: 400160,
+        key: "HfiH_526qhY",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 261,
+        movie_id: 400160,
+        key: "NqLl-b-PhLo",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 259,
+        movie_id: 400160,
+        key: "oKDotSYRuiI",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 260,
+        movie_id: 400160,
+        key: "NF_yXu7frnI",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 6.8,
@@ -429,6 +946,22 @@ app.locals.movies = [
     runtime: 137,
     tagline: "",
     title: "The King of Staten Island",
+    videos: [
+      {
+        id: 299,
+        movie_id: 579583,
+        key: "azkVr0VUSTA",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 300,
+        movie_id: 579583,
+        key: "7np6nTJ7VOU",
+        site: "YouTube",
+        type: "Behind the Scenes",
+      },
+    ],
   },
   {
     average_rating: 4.2,
@@ -446,6 +979,36 @@ app.locals.movies = [
     runtime: 75,
     tagline: "",
     title: "Away",
+    videos: [
+      {
+        id: 313,
+        movie_id: 597398,
+        key: "cSI85iGoH_s",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 312,
+        movie_id: 597398,
+        key: "334196246",
+        site: "Vimeo",
+        type: "Trailer",
+      },
+      {
+        id: 314,
+        movie_id: 597398,
+        key: "J885t4B3PmI",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 311,
+        movie_id: 597398,
+        key: "255250498",
+        site: "Vimeo",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 5.333333333333333,
@@ -463,6 +1026,22 @@ app.locals.movies = [
     runtime: 97,
     tagline: "The past will haunt you.",
     title: "La llorona",
+    videos: [
+      {
+        id: 322,
+        movie_id: 617708,
+        key: "SVf8in0dj9s",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 321,
+        movie_id: 617708,
+        key: "tfachDElCzA",
+        site: "YouTube",
+        type: "Clip",
+      },
+    ],
   },
   {
     average_rating: 5,
@@ -480,6 +1059,15 @@ app.locals.movies = [
     runtime: 114,
     tagline: "The fight for the future has begun.",
     title: "2067",
+    videos: [
+      {
+        id: 285,
+        movie_id: 528085,
+        key: "cU5875rHQ8k",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 3,
@@ -497,13 +1085,22 @@ app.locals.movies = [
     runtime: 96,
     tagline: "It was the perfect score. But hell was their reward.",
     title: "The Pale Door",
+    videos: [
+      {
+        id: 317,
+        movie_id: 610201,
+        key: "2CLqzKWDyxg",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 4.333333333333333,
     backdrop_path:
       "https://image.tmdb.org/t/p/original//zRc6SG8V8WTTDrmZ78PgqjwYqoN.jpg",
     budget: 21000000,
-    genres: (2)[("Drama", "Romance")],
+    genres: [("Drama", "Romance")],
     id: 550231,
     overview:
       "A widow with three children hires a handyman to fix her house during a major storm. When not doing home repairs, he shares his philosophy of believing in the power of the universe to deliver what we want.",
@@ -514,6 +1111,22 @@ app.locals.movies = [
     runtime: 107,
     tagline: "",
     title: "The Secret: Dare to Dream",
+    videos: [
+      {
+        id: 293,
+        movie_id: 550231,
+        key: "76PmxBH-oBo",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 292,
+        movie_id: 550231,
+        key: "t130FLX_ke0",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 5.5,
@@ -529,6 +1142,7 @@ app.locals.movies = [
     runtime: 0,
     tagline: "",
     title: "Maratón After",
+    videos: [],
   },
   {
     average_rating: 4.8,
@@ -545,6 +1159,7 @@ app.locals.movies = [
     runtime: 0,
     tagline: "",
     title: "Maquis",
+    videos: [],
   },
   {
     average_rating: 7.333333333333333,
@@ -562,6 +1177,15 @@ app.locals.movies = [
     runtime: 135,
     tagline: "",
     title: "I'm Thinking of Ending Things",
+    videos: [
+      {
+        id: 274,
+        movie_id: 500840,
+        key: "cDTg62vsV4U",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 5.25,
@@ -579,6 +1203,15 @@ app.locals.movies = [
     runtime: 107,
     tagline: "",
     title: "Shirley",
+    videos: [
+      {
+        id: 291,
+        movie_id: 547017,
+        key: "wxMtEean_V8",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 6.4,
@@ -596,6 +1229,29 @@ app.locals.movies = [
     runtime: 105,
     tagline: "",
     title: "Ip Man 4: The Finale",
+    videos: [
+      {
+        id: 269,
+        movie_id: 449924,
+        key: "jpe1h0USjIM",
+        site: "YouTube",
+        type: "Featurette",
+      },
+      {
+        id: 268,
+        movie_id: 449924,
+        key: "oCBGTCNJW2g",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 270,
+        movie_id: 449924,
+        key: "f40JahDi1Uc",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 6,
@@ -613,6 +1269,15 @@ app.locals.movies = [
     runtime: 94,
     tagline: "Old school vs new cool",
     title: "The War with Grandpa",
+    videos: [
+      {
+        id: 264,
+        movie_id: 425001,
+        key: "EohVvIWg-Oc",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 3.5,
@@ -630,6 +1295,15 @@ app.locals.movies = [
     runtime: 96,
     tagline: "",
     title: "Cuties",
+    videos: [
+      {
+        id: 305,
+        movie_id: 582885,
+        key: "M0O7lLe4SmA",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 6.5,
@@ -647,6 +1321,15 @@ app.locals.movies = [
     runtime: 94,
     tagline: "",
     title: "Made in Italy",
+    videos: [
+      {
+        id: 329,
+        movie_id: 659991,
+        key: "tJHcv0Pm0RU",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 3,
@@ -664,6 +1347,22 @@ app.locals.movies = [
     runtime: 95,
     tagline: "Embrace different",
     title: "Eternal Beauty",
+    videos: [
+      {
+        id: 275,
+        movie_id: 501953,
+        key: "5GoIVAd6xOs",
+        site: "YouTube",
+        type: "Trailer",
+      },
+      {
+        id: 277,
+        movie_id: 501953,
+        key: "9q_oBwY5AOk",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
   {
     average_rating: 3.8333333333333335,
@@ -681,6 +1380,29 @@ app.locals.movies = [
     runtime: 115,
     tagline: "One love can change your life.",
     title: "I Still Believe",
+    videos: [
+      {
+        id: 307,
+        movie_id: 585244,
+        key: "0H6O4Ty9oBg",
+        site: "YouTube",
+        type: "Clip",
+      },
+      {
+        id: 308,
+        movie_id: 585244,
+        key: "BkgsVV0xF-s",
+        site: "YouTube",
+        type: "Clip",
+      },
+      {
+        id: 306,
+        movie_id: 585244,
+        key: "YnxHyBbYwQQ",
+        site: "YouTube",
+        type: "Trailer",
+      },
+    ],
   },
 ];
 
@@ -710,17 +1432,6 @@ app.get("/", (request, response) => {
   response.send({ movies });
 });
 
-// app.get("/v1/data", (request, response) => {
-//   const data = app.locals.movies;
-
-//   if (!data) {
-//     response.status(500).send({
-//       error: `Sorry this server is down!`,
-//     });
-//   }
-//   response.send({ data });
-// });
-
 // app.post("/v1/data", (request, response) => {
 //   const id = Date.now();
 //   const movie = request.body;
@@ -744,21 +1455,6 @@ app.get("/", (request, response) => {
 //     movie;
 //   app.locals.movies.push({
 //     id,
-//     poster_path,
-//     backdrop_path,
-//     title,
-//     average_rating,
-//     release_date,
-//   });
-//   response.status(201).json({
-//     id,
-//     poster_path,
-//     backdrop_path,
-//     title,
-//     average_rating,
-//     release_date,
-//   });
-// });
 
 app.listen(app.get("port"), () => {
   console.log(

@@ -1470,30 +1470,6 @@ app.get("/", (request, response) => {
   response.send({ movies });
 });
 
-// app.post("/v1/data", (request, response) => {
-//   const id = Date.now();
-//   const movie = request.body;
-
-//   for (let requiredParameter of [
-//     "id",
-//     "poster_path",
-//     "backdrop_path",
-//     "title",
-//     "average_rating",
-//     "release_date",
-//   ]) {
-//     if (!movie[requiredParameter]) {
-//       response.status(422).send({
-//         error: `Expected format: { name: <String>, age: <Number> }. You're missing a "${requiredParameter}" property.`,
-//       });
-//     }
-//   }
-
-//   const { poster_path, backdrop_path, title, average_rating, release_date } =
-//     movie;
-//   app.locals.movies.push({
-//     id,
-
 app.listen(app.get("port"), () => {
   console.log(
     `${app.locals.title} is running on http://localhost:${app.get("port")}.`
